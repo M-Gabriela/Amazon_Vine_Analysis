@@ -18,6 +18,6 @@ The purpose of this analysis is to use PySpark to perform ETL to an Amazon's pro
 
 *Fig.2 Percentages of 5-star reviews*
 
-### Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+### Summary
 
 Based on the fact that 99.69% of the 5-star reviews come from non-paid customers, the reviews from the customers in the Vine program seem to be objective. Additionally to this analysis, a filter on the "verified_purchase" column would help remove possible outliers and have a more reliable conclusion on the product perception from the customer point of view. 
