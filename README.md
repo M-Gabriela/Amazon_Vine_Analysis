@@ -11,9 +11,11 @@ The purpose of this analysis is to use PySpark to perform ETL to an Amazon's pro
 - Out of the 15,711 5-star reviews, 0.3 % are paid and 99.69% unpaid, which means 47 5-star paid reviews and 15,664 5-star non-paid reviews. 
 
 ![image_name](counts.png)
+
 *Fig.1 Reviews counts*
 
 ![image_name](percentages.png)
+
 *Fig.2 Percentages of 5-star reviews*
 
 ## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
