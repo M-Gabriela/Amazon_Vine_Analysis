@@ -1,10 +1,10 @@
 # Amazon_Vine_Analysis
 
-## Overview of the analysis
+### Overview of the analysis
 
 The purpose of this analysis is to use PySpark to perform ETL to an Amazon's product dataset, connect to an AWS RDS instance and load into pgAdmin to analyze the reviews written by members of the paid Amazon Vine program. 
 
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+### Results: Using bulleted lists and images of DataFrames as support, address the following questions:
 
 - From the Amazon Vine Analysis, the number of vine reviews and non-vine reviews are 94 and 40,471, respectively. 
 - There are a total of 40,565 reviews where 15,711 have five stars. 
@@ -18,6 +18,6 @@ The purpose of this analysis is to use PySpark to perform ETL to an Amazon's pro
 
 *Fig.2 Percentages of 5-star reviews*
 
-## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+### Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
 
 Based on the fact that 99.69% of the 5-star reviews come from non-paid customers, the reviews from the customers in the Vine program seem to be objective. Additionally to this analysis, a filter on the "verified_purchase" column would help remove possible outliers and have a more reliable conclusion on the product perception from the customer point of view. 
